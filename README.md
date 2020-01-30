@@ -1,4 +1,4 @@
-# project-1
+# Project-1
 Introduction:
 	The purpose of this project is to understand what is CTD, how they take data and how they convert data.
   CTD stands for Conductivity, Temperature, and Density. It’s a package of electronic instruments that
@@ -35,6 +35,7 @@ Introduction:
 •	Cell 11 plots the average speed of sound of all the dives against depth.
 •	Cell 12 prints out the max value of each dive.
 ![alt text](https://github.com/stokljos/project-1/blob/master/Peircing%20Mooring%20Graphs.JPG)
+![alt text](https://github.com/stokljos/project-1/blob/master/Cabeled%20shallow.JPG)
 Analysis:
 1.	Compare the number of dives per day of the shallow profiler vs deep profiler
 
