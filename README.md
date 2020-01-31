@@ -36,10 +36,11 @@ Introduction:
 •	Cell 12 prints out the max value of each dive.
 ![alt text](https://github.com/stokljos/project-1/blob/master/Peircing%20Mooring%20Graphs.JPG)
 ![alt text](https://github.com/stokljos/project-1/blob/master/Cabeled%20shallow.JPG)
-![alt text](https://github.com/stokljos/project-1/blob/master/Peircing%20Mooring%20Graphs.JPG)
-![alt text](https://github.com/stokljos/project-1/blob/master/Cabeled%20shallow.JPG)
-![alt text](https://github.com/stokljos/project-1/blob/master/Peircing%20Mooring%20Graphs.JPG)
-![alt text](https://github.com/stokljos/project-1/blob/master/Cabeled%20shallow.JPG)
+![alt text](https://github.com/stokljos/project-1/blob/master/Cabeled%20deep.JPG)
+![alt text](https://github.com/stokljos/project-1/blob/master/Base%20Shallow.JPG)
+![alt text](https://github.com/stokljos/project-1/blob/master/Base%20Deep.JPG)
+![alt text](https://github.com/stokljos/project-1/blob/master/axial%20base%20shallow.JPG)
+![alt text](https://github.com/stokljos/project-1/blob/master/axial%20base%20deep.JPG)
 
 Analysis:
 1.	Compare the number of dives per day of the shallow profiler vs deep profiler
