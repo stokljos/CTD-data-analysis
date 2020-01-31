@@ -1,5 +1,6 @@
 # Project-1
 Introduction:
+
 	The purpose of this project is to understand what is CTD, how they take data and how they convert data.
   CTD stands for Conductivity, Temperature, and Density. It’s a package of electronic instruments that
   dive deep or shallow into the ocean and It directly measures conductivity, temperature, and pressure.
@@ -18,22 +19,35 @@ Introduction:
   from August 20th through the 31st.
   
   Explaination of Code:
+  
 •	Cell 1 grabs the raw data of the downloaded 24-hours of data from the device that will be in the same github file as the code.
+
 •	Cell 2 converts the data file, which is CSV, and converts it to a dataframe
+
 •	Cell 3 then takes certain parameters from the dataframe and puts them into arrays
+
 •	Cell 4 then takes the pressure and density and calculates depth of the water for every point and then
-  calculates speed of sound in the water using temperature, salinity, and the depth of water
+  	calculates speed of sound in the water using temperature, salinity, and the depth of water
+  
 •	Cell 5 converts the depth (x) and speed of sound (y) arrays to actual integer values in an array
+
 •	Cell 6 goes through the entire depth array to find when the device starts a new dive, at that point, 
-  the corresponding index is recorded in a new array called ‘v’ and the number of dives goes up 1 to determine how many dives there are
+  	the corresponding index is recorded in a new array called ‘v’ and the number of dives goes up 1 to determine how many dives 		there are
+  
 •	Cell 7 splits the depth and speed of sound array into multiple arrays that correspond to each dive
+
 •	Cell 8 goes through each split array in the speed of sound to determine the max value for each dive
+
 •	Cell 9 incorporates a nested loop, the for loop in the while loop averages the same index for each dive 
-  and the while loop moves onto the next index. The average speed of sound value is stored in ‘y2’ and the average 
-  depth at each index is stored in ‘x2’.
+  	and the while loop moves onto the next index. The average speed of sound value is stored in ‘y2’ and the average 
+  	depth at each index is stored in ‘x2’.
+  
 •	Cell 10 plots the graph of all the dives where depth is on the x axis and speed of sound is on the y axis
+
 •	Cell 11 plots the average speed of sound of all the dives against depth.
+
 •	Cell 12 prints out the max value of each dive.
+
 ![alt text](https://github.com/stokljos/project-1/blob/master/Peircing%20Mooring%20Graphs.JPG)
 ![alt text](https://github.com/stokljos/project-1/blob/master/Cabeled%20shallow.JPG)
 ![alt text](https://github.com/stokljos/project-1/blob/master/Cabeled%20deep.JPG)
@@ -43,6 +57,7 @@ Introduction:
 ![alt text](https://github.com/stokljos/project-1/blob/master/axial%20base%20deep.JPG)
 
 Analysis:
+
 1.	Compare the number of dives per day of the shallow profiler vs deep profiler
 
 For the offshore Cable profiler, the Deep profiler has 13 dives in the winter and 7 dives in the summer 
